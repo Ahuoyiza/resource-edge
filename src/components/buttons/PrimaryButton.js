@@ -1,10 +1,21 @@
 import React from 'react'
 
-const PrimaryButton = () => {
+const PrimaryButton = ({text,mr,ml,fontSize, bg,mt,mb}) => {
     return (
-        <div>
-            <h1>button</h1>
-        </div>
+        
+       <button 
+       className="btn btn-primary p-small" 
+       style={{
+           marginLeft:`${ml}`, 
+           marginRight:`${mr}`, 
+           fontSize:`${fontSize}`,
+           background:`${bg}`,
+           marginTop:`${mt}`,
+           marginBottom:`${mb}`
+        }}
+        >
+            {text}
+        </button>
     )
 }
 
