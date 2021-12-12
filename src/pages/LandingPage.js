@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Layout from 'components/layout/Layout';
 
 const LandingPage = () => {
     return (
-        <div>
+        <Layout>
             <h2>landing page</h2>
-        </div>
+        </Layout>
     )
 }
 
