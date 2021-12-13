@@ -91,6 +91,19 @@ code {
   padding-left: 60px;
   padding-right: 60px;
 }
+.py-small {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-large {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.py-xlarge {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 /* margins */
 .m-small {
   margin: 10px;
