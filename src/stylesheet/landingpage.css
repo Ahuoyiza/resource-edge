@@ -1,5 +1,9 @@
+
 .hero{
     height: 80vh;
+    width: 85vw;
+    margin: auto;
+    
 }
 .hero-text{
     
@@ -12,12 +16,19 @@ h1{
     font-weight: bold;
     margin-bottom: 5%;
 }
-p{
+.tagline{
     opacity: 0.8;
     font-size: 1.2em;
 }
 
-
+.hr-wrap{
+    background-color: #F4F5F7;
+   
+}
+.hr-section{
+    width: 85vw;
+    margin: auto;
+}
 @media only screen and (max-width: 700px) {
     .hero{
         flex-direction: column;
@@ -25,5 +36,8 @@ p{
         padding-right: 20px;
         justify-content: space-around;
        
+    }
+    .hr-cards{
+        flex-direction: column;
     }
 }
